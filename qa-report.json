@@ -1,0 +1,49 @@
+{
+  "site": "--dir",
+  "base": "http://127.0.0.1:38859/",
+  "viewports": [
+    {
+      "name": "mobile",
+      "w": 390,
+      "h": 844,
+      "shot": "vp-390x844.png"
+    },
+    {
+      "name": "tablet",
+      "w": 768,
+      "h": 1024,
+      "shot": "vp-768x1024.png"
+    },
+    {
+      "name": "laptop",
+      "w": 1280,
+      "h": 800,
+      "shot": "vp-1280x800.png"
+    },
+    {
+      "name": "desktop",
+      "w": 1440,
+      "h": 900,
+      "shot": "vp-1440x900.png"
+    },
+    {
+      "name": "wide",
+      "w": 1920,
+      "h": 1080,
+      "shot": "vp-1920x1080.png"
+    }
+  ],
+  "consoleErrors": [
+    "[mobile] Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "[tablet] Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "[laptop] Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "[desktop] Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "[wide] Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageErrors": [],
+  "brokenAnchors": [],
+  "brokenImages": [],
+  "extLinks": [],
+  "warnings": [],
+  "pass": false
+}
